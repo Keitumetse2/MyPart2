@@ -94,17 +94,17 @@ public class QuickChat {
                     null, options, options[0]);
 
             if (option == 0) {
-                sentMessages.add(messagetool); // Only store if "Send"
+                sentMessages.add(messagetool); 
                JOptionPane.showMessageDialog(null,
         "Message Sent!\n\n" + messagetool.getMessageDetails(),
         "Message Info",
         JOptionPane.INFORMATION_MESSAGE);
             } else if (option == 1) {
                 JOptionPane.showMessageDialog(null, "Message Stored.");
-                // Not actually stored
+                
             } else if (option == 2) {
                 JOptionPane.showMessageDialog(null, "Message Disregarded.");
-                // Not stored
+                
             }
             current++;
         }
@@ -139,5 +139,6 @@ public class QuickChat {
      }
 }
    
+
 
 
